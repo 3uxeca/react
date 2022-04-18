@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![책 검색 사이트](https://img.youtube.com/vi/1gqiz43ffhs/0.jpg)](https://youtu.be/1gqiz43ffhs?t=0s)
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+### 💡 목차
+[1. 프로젝트 설명 ](#프로젝트-설명)<br/>
+[2. 사용기술 ](#-tools)<br/>
+[3. 배운 점 ](#-i-learned)<br/>
+[4. 기능정보 ](#-기능정보)<br/>
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖥 프로젝트 설명 
+### 기간/인원
+2022.04
+(1인 프로젝트)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1552" alt="스크린샷 2021-08-27 오후 11 55 22" src="https://user-images.githubusercontent.com/69631850/131151464-bf2e989d-37a7-4b53-bdf8-eeed5898853a.png">
 
-### `npm test`
+Library는 책을 검색 후 장바구니에 추가하면 책의 개수와 가격을 계산해 주는 서비스입니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+이번 프로젝트는 React.js와 카카오 검색 API 를 활용하여 간단한 프로젝트를 하나 만들어 보고자 시작하게 되었습니다.
 
-### `npm run build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tools
+```
+- React.js
+- styled-componenets
+```
+- [Kakao 책 검색 API](https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide#search-book)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔎 I learned 
+- 카카오 개발 문서를 읽고 적용하는 방법
+- Hooks로 컴포넌트를 분리하여 사용하는 방법
 
-### `npm run eject`
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🕹 기능정보 
+### 1. [책 검색 기능 구현](https://velog.io/@97godo/React-React-%EB%A1%9C-kakao-%EC%B1%85-%EA%B2%80%EC%83%89-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1.-Kakao-API-%EA%B2%80%EC%83%89-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. [장바구니에 책 추가 기능, 수량 추가, 삭제 기능 구현](https://velog.io/@97godo/React-React-%EB%A1%9C-kakao-%EC%B1%85-%EA%B2%80%EC%83%89-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-2.-%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. 책 수량에 따른 가격 측정 기능 구현
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. 이미지 hover 시 책 정보 나타나는 효과 구현
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[출처] https://velog.io/@97godo/React-React-%EB%A1%9C-kakao-%EC%B1%85-%EA%B2%80%EC%83%89-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0
