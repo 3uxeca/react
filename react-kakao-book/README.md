@@ -1,7 +1,4 @@
 # Library
-
-[![책 검색 사이트](https://img.youtube.com/vi/1gqiz43ffhs/0.jpg)](https://youtu.be/1gqiz43ffhs?t=0s)
-
 <br/>
 
 ### 💡 목차
