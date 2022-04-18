@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  --mint-color: #cdf0ea;
+  --grey-color: #f9f9f9;
+  --darkgrey-color: #a7a9b5;
+  --pink-color: #f7dbf0;
+  --violet-color: #beaee2;
+  --black-color: #2a2a2a;
+  --white-color: #fff;
+  --blue-color: #a2dbfa;
+  --yellow-color: #ffd369;
+  --red-color: #f16262;
+  --navy-color: rgba(36, 76, 112);
+}
+
+/* font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--grey-color);
+}
+
+.searchBox {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.input_search {
+  margin: 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.8rem;
+  border: 0;
+  border-bottom: 1px solid #dddddd;
+  width: 30rem;
+  height: 3rem;
+  display: block;
+  transition: border 0.3s;
+  padding: 2rem;
+}
+
+.input_search:focus {
+  outline: none;
+  border-bottom: 1px solid var(--blue-color);
+}
+
+ul {
+  display: grid;
+  padding: 2rem;
+  width: 90rem;
+  margin: auto;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid #dddddd;
+  padding: 20px;
+}
