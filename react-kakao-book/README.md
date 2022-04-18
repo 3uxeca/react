@@ -1,7 +1,4 @@
 # Library
-
-[![책 검색 사이트](https://img.youtube.com/vi/1gqiz43ffhs/0.jpg)](https://youtu.be/1gqiz43ffhs?t=0s)
-
 <br/>
 
 ### 💡 목차
@@ -17,7 +14,7 @@
 2022.04
 (1인 프로젝트)
 
-<img width="1552" alt="스크린샷 2021-08-27 오후 11 55 22" src="https://user-images.githubusercontent.com/69631850/131151464-bf2e989d-37a7-4b53-bdf8-eeed5898853a.png">
+<img width="1552" alt="스크린샷 2021-08-27 오후 11 55 22" src="https://raw.githubusercontent.com/3uxeca/react/main/react-kakao-book/public/img/library-app.png">
 
 Library는 책을 검색 후 장바구니에 추가하면 책의 개수와 가격을 계산해 주는 서비스입니다.
 
