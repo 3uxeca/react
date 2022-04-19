@@ -30,7 +30,7 @@ const Translate = () => {
     return (
         <TranslateWrapper>
             <h1>Kakao Translate API</h1>
-            <div>
+            <div className='text-box-wrap'>
                 <select
                     name='srcLang'
                     onChange={onSrcLangUpdate}
@@ -54,14 +54,7 @@ const Translate = () => {
                     <option value='jp'>일본어</option>
                     <option value='cn'>중국어</option>
                 </select>                
-                <input 
-                    className='input-src'
-                    type='text'
-                    placeholder='번역할 내용을 입력해주세요.'
-                    name='fromText'
-                    onChange={onSrcTextUpdate}
-                    value={srcText}
-                />
+
                 <button 
                     onClick={onClickTranslate}
                     className='btn-translate'
@@ -69,7 +62,15 @@ const Translate = () => {
                     번역
                 </button>
             </div>
-            <div>
+            <div className='text-box-wrap'>
+                <input 
+                    className='input-src'
+                    type='text'
+                    placeholder='번역할 내용을 입력해주세요.'
+                    name='fromText'
+                    onChange={onSrcTextUpdate}
+                    value={srcText}
+                />                
                 <TranslateResult />
             </div>
         </TranslateWrapper>
@@ -81,7 +82,7 @@ const TranslateWrapper = styled.div`
     position: relative;
     text-align: center;
     .lang-select {
-        width: 100px;
+        width: 382px;
         border: 1px solid #e0e2e7;
         border-radius: 8px;
         padding: 8px;
@@ -93,13 +94,13 @@ const TranslateWrapper = styled.div`
         }
     }
     .input-src {
-        width: 300px;
-        height: 35px;
-        box-sizing: border-box;
-        padding: 8px;
+        width: 350px;
+        min-height: 100px;
+        padding: 15px;
         border: 1px solid #e0e2e7;
         border-radius: 8px;
         color: #555;
+        margin-top: 10px;
         &:focus {
             outline: none;
         }
@@ -112,13 +113,21 @@ const TranslateWrapper = styled.div`
         color: #fff;
         font-weight: 600;
         border: 1px solid #999;
-        margin-left: 5px;
+        margin-left: -65px;
         cursor: pointer;
+        position: relative;
+        left: 60px;
         &:hover {
             background-color: #777;
         }
     }
-    
+    .text-box-wrap {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 `;
 
 export default Translate;
